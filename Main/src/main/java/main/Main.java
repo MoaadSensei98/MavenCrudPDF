@@ -99,8 +99,7 @@ public class Main {
 			GestorCoche gGPDF = new GestorCoche();
 			try {
 				gGPDF.crearFicheroPDF();
-				System.out.println("Se ha creado el fichero satisfactoriamente");
-			} catch (Exception e) {
+ 			} catch (Exception e) {
 				System.out.println("Ha ocurrido un error generando el fichero");
 			}
 			break; 
